@@ -1,0 +1,1339 @@
+/*
+ * HTML5 Boilerplate
+ *
+ * What follows is the result of much research on cross-browser styling.
+ * Credit left inline and big thanks to Nicolas Gallagher, Jonathan Neal,
+ * Kroc Camen, and the H5BP dev community and team.
+ */
+
+/* ==========================================================================
+   Base styles: opinionated defaults
+   ========================================================================== */
+
+html,
+button,
+input,
+select,
+textarea {
+    color: #222;
+}
+
+body {
+    font-size: 1em;
+    line-height: 1.4;
+}
+
+/*
+ * Remove text-shadow in selection highlight: h5bp.com/i
+ * These selection rule sets have to be separate.
+ * Customize the background color to match your design.
+ */
+
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+/*
+ * A better looking default horizontal rule
+ */
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #f1f0f0;
+    margin-bottom:86px;
+    padding: 0;
+}
+
+/*
+ * Remove the gap between images and the bottom of their containers: h5bp.com/i/440
+ */
+
+img {
+    vertical-align: middle;
+}
+
+/*
+ * Remove default fieldset styles.
+ */
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+/*
+ * Allow only vertical resizing of textareas.
+ */
+
+textarea {
+    resize: vertical;
+}
+
+/* ==========================================================================
+   Chrome Frame prompt
+   ========================================================================== */
+
+.chromeframe {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+   
+   
+   
+   
+/* ==========================================================================
+   BODY
+   ========================================================================== */
+
+body {
+    font-family:  "PressStart2P";
+    font-size: 15px;
+    font-weight: 300;
+    color: #2f2f2f;
+    background: #2f2f2f url(../images/bg_head.jpg) center 0 no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+section {
+    position: relative;
+    background: #2f2f2f;
+    z-index: 2;
+}
+
+body.fx {
+    padding-top: 75px;
+}
+
+a,
+a:focus,
+a:hover,
+a:active {
+    color: #01a7f4;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-weight: normal;
+}
+
+h2,h3,h4 {
+    font-family: "PressStart2P";
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+h2 {
+    margin: 0 0 19px;
+    font-size: 38px;
+}
+
+h3 {
+    margin: 0;
+    font-size: 22px;
+}
+
+h4 {
+    margin: 0;
+    font-size: 18px;
+}
+
+p {
+    margin: 0 0 21px 0;
+}
+
+.btn {    
+    padding: 16px 23px;
+    border: 2px solid #02c6ff;
+    border-radius: 10px;
+    font-family: "PressStart2P";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 1px;  
+    text-transform: uppercase;
+    text-shadow: none;    
+    color: #02c6ff;
+    background: transparent;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    -webkit-transition: all 0.3s; 
+    -moz-transition: all 0.3s; 
+    -o-transition: all 0.3s; 
+    transition: all 0.3s;   
+}
+
+.btn:hover,
+.btn:focus,
+.btn:active,
+.btn.active,
+.btn.disabled,
+.btn[disabled] {
+    border-color: #02c6ff;
+    color: #fff;
+    background: #02c6ff;
+    background-position: 0 0;
+    -webkit-transition: all 0.3s; 
+    -moz-transition: all 0.3s; 
+    -o-transition: all 0.3s; 
+    transition: all 0.3s;  
+}
+
+
+.btn2 {
+    height: 70px;
+    width: 50px;
+	margin-top: 5%;
+    padding: 30px 20px;
+    border: medium solid #fff;
+    border-radius: 10px;
+    font-family:  "PressStart2P";
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 57px;
+    letter-spacing: 1px;  
+    text-transform: uppercase;
+    text-shadow: none;    
+    color: #fff;
+	background-color: rgba(0, 150, 255, 0.5);
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    -webkit-transition: all 0.3s; 
+    -moz-transition: all 0.3s; 
+    -o-transition: all 0.3s; 
+    transition: all 0.3s;   
+}
+
+.btn2:hover,
+.btn2:focus,
+.btn2:active,
+.btn2.active,
+.btn2.disabled,
+.btn2[disabled] {
+    border-color: #fff;
+    color: #fff;
+	background-color: #02c6ff;
+    background-position: 0 0;
+    -webkit-transition: all 0.3s; 
+    -moz-transition: all 0.3s; 
+    -o-transition: all 0.3s; 
+    transition: all 0.3s;  
+}
+
+
+
+.link {
+    font-family: "PressStart2P";
+    font-size: 16px;
+    letter-spacing: 1px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+section p {
+    color: #7c7c7c;
+}
+
+/* ==========================================================================
+   HOME
+   ========================================================================== */
+
+#head {
+    text-align:center;
+    min-height: 808px;
+}
+
+#head .logo {
+    display: inline-block; 
+    -webkit-transition: all 0.3s; 
+    -moz-transition: all 0.3s; 
+    -o-transition: all 0.3s; 
+    transition: all 0.3s; 
+}
+
+
+.h-text { 
+
+    z-index: 1;
+    
+}
+
+#head h1 {
+    font-family: "PressStart2P";
+    font-size: 50px;
+    line-height: 23px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align:center;
+    letter-spacing:-6px;
+    margin-top:100px;
+    color:#fff;
+    
+    text-shadow: 0px 1px 0px #999, 0px 2px 0px #888, 0px 3px 0px #777, 0px 4px 0px #666, 0px 5px 0px #555, 0px 0px 0px #444, 0px 0px 0px #333, 0px 0px 0px #001135;  
+}
+
+#head p {
+	margin-top: 30px;
+    margin-bottom: 100px;
+    font-family: "PressStart2P";
+    font-size: 45px;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing:-4px;
+    color:#fff;
+    
+    text-shadow: 5px 5px 0px rgba(0,0,0, 0.5)
+}
+
+
+/* ==========================================================================
+   NAVIGATION
+   ========================================================================== */
+
+.fx #navigation {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999;
+}
+
+#navigation {
+    position: relative;
+    min-height: 75px;
+    margin: 0;
+    background-image: url( ../images/nav.png);
+    z-index: 999;
+}
+
+.navbar .brand {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar .brand img {
+    margin-top: 17px;
+}
+
+.nav li {
+    float: left;
+}
+
+.navbar .nav > li > a,
+.navbar .nav > li > a:visited {
+    padding: 40px 15px;
+    font-family: "PressStart2P";
+    font-size: 15px;
+    font-weight: 300;
+    text-transform: uppercase;
+    color: #fff;
+    -webkit-box-shadow: 0 none;
+    box-shadow: 0 none;
+    -webkit-transition: all 0.3s; 
+    -moz-transition: all 0.3s; 
+    -o-transition: all 0.3s; 
+    transition: all 0.3s; 
+}
+
+.navbar .nav > li > a:hover,
+.navbar .nav > li > a:focus,
+.navbar .nav > li > a:active,
+.navbar .nav > li.active > a {
+    color: #000000 !important;
+    text-decoration: none;
+    background: none !important;
+    outline: 0 none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.navbar .btn-navbar {
+    width: 43px;
+    height: 43px;
+    border-color: #fff;
+    background: none;
+    box-shadow: none;
+    border-radius: 43px;
+}
+
+/* ==========================================================================
+   ABOUT US
+   ========================================================================== */
+
+#about-us header {       
+    height: 250px;
+    padding-top: 86px;
+    background: url(../images/bg_about.jpg) center 0 repeat-x;
+    text-align:center;
+}
+
+#about-us header h2{
+    font-family: "PressStart2P";
+    font-size: 144px;
+    line-height: 23px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align:center;
+    letter-spacing:-8px;
+    margin-top:70px;
+    color:#fff;  
+    
+    text-shadow: 0px 1px 0px #999, 0px 2px 0px #888, 0px 3px 0px #777, 0px 4px 0px #666, 0px 5px 0px #555, 0px 0px 0px #444, 0px 0px 0px #333, 0px 0px 0px #001135;          
+}
+
+.about_content {
+    padding-top: 1px;
+    background-color:#fff;
+}
+
+#about-us .container {
+    padding-bottom: 80px;
+}
+
+#about-us .span3 {
+    text-align: center;
+    padding: 78px 0 20px;
+}
+
+#about-us .span3 h3 {
+    margin-bottom: 13px;
+}
+
+#about-us .span3 p {
+    margin: 0 12%;
+}
+
+#about-us .progress {
+    margin-top: 5px;
+    margin-bottom:0px;
+    height: 26px;
+    box-shadow: none;
+    background: #e3e6e8;
+    border-radius: 0;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+}
+
+
+#about-us .bar {   
+    background-color: #01a7f4;
+    background-image: none;
+    text-align: left;
+    padding-left: 9px;
+    line-height: 25px;
+    font-size:10px;
+    filter: e(%("progid:DXImageTransform.Microsoft.gradient(enabled = false)"));
+}
+
+#team {margin-top: 86px;
+    text-align: center;
+}
+
+#team h2{
+    margin-bottom:25px;
+}
+
+#team h3{
+    margin-top:10px;
+}
+
+.team_member{margin-bottom:40px;}
+
+
+.social-media {
+    color: #01a7f4; 
+    font-family: "PressStart2P";
+    font-size: 12px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.social-media li {
+    color: #01a7f4;
+    display: inline-block;
+    margin-left: 14px;
+    padding-left: 16px;
+    background: url(../images/misc_sep.png) 0 3px no-repeat;
+}
+.social-media li:first-child {
+    margin-left: 0;
+    padding-left: 0;
+    background: none;
+}
+
+
+/* ==========================================================================
+   SERVICES
+   ========================================================================== */
+
+
+#services header {       
+    height: 250px;
+    padding-top: 86px;
+    background: url(../images/bg_services.jpg) center 0 repeat-x;
+    text-align:center;
+}
+
+#services header h2{       
+    font-family:  "PressStart2P";
+    font-size: 144px;
+    line-height: 13px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align:center;
+    letter-spacing:-8px;
+    margin-top:70px;
+    color:#fff;
+    
+    text-shadow: 0px 1px 0px #999, 0px 2px 0px #888, 0px 3px 0px #777, 0px 4px 0px #666, 0px 5px 0px #555, 0px 0px 0px #444, 0px 0px 0px #333, 0px 0px 0px #001135;  
+       
+}
+
+.services_content {
+    padding-top: 83px;
+    background-color: #fff;
+}
+
+.services_content .span4 {
+    text-align: center;
+}
+
+.services_content .span4 span {
+    display: inline-block;
+    width: 214px;
+    height: 214px;
+    margin-bottom: 25px;
+    border: 2px solid #3f3f56;
+    border-radius: 115px;
+    line-height: 214px;
+}
+
+.services_content .span4 h3 {
+    margin-bottom: 13px;
+}
+
+.services_content .span4 p {
+    margin: 0 13% 88px;
+}
+
+#services_icons {
+    text-align: center;
+}
+        
+#services_icons h3 {
+    margin-top:10px;
+}
+
+#cta_section {
+    text-align:center;
+    margin-bottom:86px;
+}
+
+
+
+
+/* ==========================================================================
+   PORTFOLIO
+   ========================================================================== */
+
+#portfolio {
+    position: relative;
+}
+
+#portfolio header {
+    height: 250px;
+    padding-top: 86px;
+    background: url(../images/bg_portfolio.jpg) center 0 repeat-x;
+    text-align:center;
+}
+
+#portfolio header h2{       
+    font-family: "PressStart2P";
+    font-size: 144px;
+    line-height: 13px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align:center;
+    letter-spacing:-8px;
+    margin-top:70px;
+    color:#fff;
+
+   text-shadow: 0px 1px 0px #999, 0px 2px 0px #888, 0px 3px 0px #777, 0px 4px 0px #666, 0px 5px 0px #555, 0px 0px 0px #444, 0px 0px 0px #333, 0px 0px 0px #001135;        
+}
+
+.portfolio_content {
+    padding-top: 83px;
+    background-color: #fff;
+}
+
+#featured_item {
+    text-align:center;
+    margin-bottom:30px;
+}
+
+#featured_item h2 {
+    padding-top:30px;
+}
+
+.item_details p {
+    float:left;
+    margin-top:5px;
+    text-align:left;
+}
+.cta_online {
+    float:right;
+}
+
+.work h3 {
+    margin-top:10px;
+}
+
+figure {
+    max-width:400px;
+    margin:0px auto;
+    padding:0px;
+    text-align:center;
+}
+
+figure img {
+	max-width: 100%;
+	position: relative;
+	z-index: 900;
+}
+
+figure a {
+	position: relative;
+	display: block;
+	line-height: 0px;
+	text-decoration: none;
+}
+
+figure a:hover img {
+	opacity: 0.4; 
+	filter: alpha(opacity=40); /* IE6-IE8 */
+            -webkit-transition: opacity .3s ease-in-out;
+		-moz-transition: opacity .3s ease-in-out;
+		-o-transition: opacity .3s ease-in-out;
+		-ms-transition: opacity .3s ease-in-out;	
+		transition: opacity .3s ease-in-out;
+    
+}
+
+figure a:before {
+	content: "+";
+	display: block;
+	font-size: 100px;
+	line-height: 1em;
+	text-align: center;
+    height: 1em;
+	width: 1em;
+	color: #01a7f4;
+	font-weight: normal;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	z-index: 100;
+	margin: -0.5em 0 0 -0.5em;
+}
+
+a:hover  {
+	text-decoration: none;
+}
+a.enlarge:before {
+	content: "+";
+}
+
+/* ==========================================================================
+   CONTACT
+   ========================================================================== */
+
+#contact header {       
+    height: auto;
+    padding-top: 86px;
+    background: url(../images/bg_contact.jpg) center 0 repeat-x;
+    text-align:center;
+}
+
+#contact h2 {
+    color:white;
+}
+
+
+#contact {
+    color:white;
+    background-color: black;
+}
+
+#contact p {
+    color:#d3d3d6;
+}
+
+#contact .details {
+    margin-top:10px;
+    text-align:center;
+}
+
+#contact .contact-wrap {
+    padding: 73px 0 91px;
+    margin-top: -3px;
+    border-top: 11px solid #705a70;
+}
+
+#contact form {
+    font-family: "PressStart2P";
+    font-weight: 300;  
+    padding-bottom:40px; 
+}
+
+#contact form input[type="text"],
+#contact form input[type="email"] {
+    width: 80%;
+    height: 67px;
+    margin-bottom: 20px;
+    padding: 0 10%;
+    border: none;
+    border-radius: 0;
+    box-shadow: none;
+}
+
+#contact form textarea {
+    width: 90%;
+    height: 98px;
+    margin-bottom: 20px;
+    padding: 4% 5%;
+    border: 0;
+    border-radius: 0;
+}
+
+#contact form .span6.offset1 h3 {
+    color:white;
+}
+
+#contact form .span6.offset1 p span {
+    font-weight: 700;
+}
+
+#contact .contact-wrap p strong {
+    font-family: "PressStart2P";
+    font-weight: 700;  
+}
+#contact_details {
+    padding-bottom:30px;
+}
+
+
+
+/* ==========================================================================
+   FOOTER
+   ========================================================================== */
+ 
+#foot {
+    line-height: 85px;
+    background-color: #252325;
+}
+
+#foot .copyrights {
+    float: left;
+}
+
+#foot a {
+    float: right;
+    margin-right: 31px;
+    color: rgba( 255, 255, 255, 0.27);
+}
+
+#foot p {
+    margin: 0;
+    color: rgba( 255, 255, 255, 0.27);
+}
+    
+    
+/* ==========================================================================
+   Responsive Styles
+   ========================================================================== */
+
+/* Large desktop */
+
+
+@media (min-width: 980px) and (max-width: 1024px) {
+    #head {
+        background: url(../images/bg_head.jpg) center 0 no-repeat;
+        background-size: cover;
+    }
+    .h-text {
+        
+        z-index: 1;
+    }
+}
+
+/* Portrait tablet to landscape and desktop */
+@media (min-width: 768px) and (max-width: 979px) {
+    body {
+        font-size: 13px;
+    }
+    section p {
+        line-height: 19px;
+    }
+    h2 {
+        font-size: 24px;
+    }
+    h3 {
+        font-size: 16px;
+    }
+    #head {
+        background: url(../images/bg_head.jpg) center 0 no-repeat;
+        background-size: cover;
+    }
+    #head .container {
+        text-align: center;
+    }
+    .social-media {
+        float: none;
+        margin: 30px 0 0;
+    }
+
+    #head h1 {
+        font-size: 65px;
+    }
+
+    #head p {
+        font-size: 35px;
+        
+    }
+    #head .btn {
+        float: none;
+        margin: 0 auto;
+    }
+     
+    .navbar .brand {
+        margin-left: 30px;
+    }
+
+    .navbar .brand {
+        margin-left: 30px;
+    }
+
+    .navbar .btn-navbar {
+        margin: 15px 30px 0 0;
+    }
+
+    .nav-collapse.pull-right {
+        float: none;
+    }
+
+    .navbar .nav > li {
+        float: none;
+        text-align: center;
+    }
+
+    .navbar .nav > li > a,
+    .navbar .nav > li > a:visited {
+        padding: 0;
+        font-size: 18px;
+        line-height: 29px;
+        color: #FFFFFF !important;
+    }
+    #about-us header,
+    #contact header,
+    #portfolio header,
+    #services header {
+        background-size: cover;
+    }
+    
+    #portfolio header,
+    #about-us header,
+    #services header,
+    #contact header {
+        background-size: auto;
+    }
+
+    .h-text {
+        
+        z-index: 1;
+    }
+
+    #foot p,
+    #foot a {
+        font-size: 13px;
+    }
+    .work {
+    text-align:center;
+    }
+    
+    .item_details p {
+    float:none; 
+    margin-top:5px; 
+    text-align:center; 
+    }
+    .cta_online {
+    float:none;
+    }
+
+}
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px) {
+
+    body {
+        background-size: auto auto;
+        background-attachment: scroll;
+        font-size: 13px;
+    }
+    section p {
+        line-height: 19px;
+    }
+    h2 {
+        font-size: 24px;
+    }
+    h3 {
+        font-size: 16px;
+    }
+
+
+    #head,
+    #navigation,
+    #about-us header,
+    #about-us .about_content,
+    #services header,
+    #services .services_content,
+    #portfolio .portfolio_content,
+    #portfolio header,
+    #contact, #foot {
+        margin-left: -20px;
+        margin-right: -20px;
+        padding-left: 20px;
+        padding-right: 20px;    
+    }
+    #about-us header,
+    #services header,
+    #portfolio header{
+        height: 160px;
+    }
+    #contact,
+    #navigation{
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .fx #navigation {
+        margin-left: 0;
+        margin-right: 0;
+    }
+    #head {
+        position: relative;
+        min-height: 544px;
+    }
+    #head .container {
+        text-align: center;
+    }
+
+    #head .logo {
+        margin: 25px 0 30px;
+    }
+
+    .social-media {
+        float: none;
+        margin: 30px 0 0 0;
+    }
+
+    #head h1 {
+        margin-top:50px;
+        letter-spacing:-2px;
+        font-size: 40px;
+        line-height: 40px;
+        margin-bottom:0px;
+    }
+
+    #head p {
+        letter-spacing:-2px;
+        font-size: 25px;
+        margin-bottom: 40px;
+    }
+
+    #head .btn {
+        float: none;
+        margin: 0;
+    }
+    
+    #about-us header h2,
+    #services header h2,
+    #portfolio header h2 {
+    font-size:80px;
+    margin-top:20px;
+    }
+
+    .navbar .brand {
+        margin-left: 30px;
+        margin-top: 5px;
+    }
+
+    .navbar .brand img {
+        margin-top: 11px;
+    }
+
+    .navbar .btn-navbar {
+        margin: 15px 30px 0 0;
+    }
+
+    .nav-collapse.pull-right {
+        float: none;
+    }
+
+    .navbar .nav > li {
+        float: none;
+        text-align: center;
+    }
+
+    .navbar .nav > li > a,
+    .navbar .nav > li > a:visited {
+        padding: 0;
+        font-family: "PressStart2P";
+        font-size: 18px;
+        line-height: 29px;
+        color: #fff !important;
+    }
+
+    .navbar .nav > li.active a,
+    .navbar .nav > li > a:hover {
+        color: #01a7f4 !important;
+    }
+
+    #about-us .span3 {
+        text-align: center;
+        padding: 25px 0;
+    }
+
+    #about-us .span6:last-child {
+        text-align: center;
+    }
+
+    #contact form .btn {
+        display: block;
+        float: none;
+        margin: 0 auto 10px;
+    }
+    #about-us header,
+    #contact header,
+    #portfolio header,
+    #services header {
+        background-size: cover;
+    }
+
+    #foot {
+        padding-top:50px;
+        position: relative;
+        padding-bottom: 136px;
+        text-align: center;
+        color: #605f60;
+        font-size: 13px;
+        line-height: normal;
+    }
+
+    #foot a {
+        display: inline-block;
+        float: none;
+        margin: 0 10px;
+        color: #605f60;
+    }
+
+    #foot .arrow-up {
+        float: none;
+        margin: 0 auto 35px;
+    }
+
+    #foot .copyrights {
+        position: absolute;
+        bottom: 55px;
+        left: 0;
+        width: 100%;
+        line-height: normal;
+    }
+
+    #head,    
+    #services header,
+    #contact header {
+        background-size: cover;
+    }
+
+    #contact .span3 {
+        clear: both;
+        text-align: center;
+    }
+
+    #contact form textarea {
+        width: 80%;
+        padding: 5% 10%;
+    }   
+    
+    #contact .container {
+    width:80%;
+    }
+
+}
+
+/* Landscape phones and down */
+@media (max-width: 480px) {
+    body {
+        font-size: 13px;
+    }
+    section p {
+        line-height: 19px;
+    }   
+    body.fx {
+        padding-top: 55px;
+    }
+    h2 {
+        font-size: 24px;
+    }
+    h3 {
+        font-size: 16px;
+    }
+    #navigation {
+        min-height: 55px;
+    }
+    .navbar .brand {
+        margin-left: 30px;
+    }
+
+    .navbar .btn-navbar {
+        margin-top: 6px;
+    }
+
+    .navbar .brand {
+        margin-top: -5px;
+    }
+
+    #about-us .span6 {
+        margin-bottom: 40px;
+    }
+
+    #contact .contact-wrap {
+        padding-top: 40px;
+        padding-bottom: 30px;
+    }
+
+    #foot {
+        padding-top:50px;
+        padding-bottom: 100px;
+    }
+    
+    #about-us header h2,
+    #services header h2,
+    #portfolio header h2 {
+    font-size:50px;
+    margin-top:25px;
+    letter-spacing:-3px;
+    }
+}
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+
+/*
+ * Image replacement
+ */     
+
+.ir {
+    background-color: transparent;
+    border: 0;
+    overflow: hidden;
+    /* IE 6/7 fallback */
+    *text-indent: -9999px;
+}
+
+.ir:before {
+    content: "";
+    display: block;
+    width: 0;
+    height: 150%;
+}
+
+/*
+ * Hide from both screenreaders and browsers: h5bp.com/u
+ */
+
+.hidden {
+    display: none !important;
+    visibility: hidden;
+}
+
+/*
+ * Hide only visually, but have it available for screenreaders: h5bp.com/v
+ */
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+/*
+ * Extends the .visuallyhidden class to allow the element to be focusable
+ * when navigated to via the keyboard: h5bp.com/p
+ */
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+}
+
+/*
+ * Hide visually and from screenreaders, but maintain layout
+ */
+
+.invisible {
+    visibility: hidden;
+}
+
+/*
+ * Clearfix: contain floats
+ *
+ * For modern browsers
+ * 1. The space content is one way to avoid an Opera bug when the
+ *    `contenteditable` attribute is included anywhere else in the document.
+ *    Otherwise it causes space to appear at the top and bottom of elements
+ *    that receive the `clearfix` class.
+ * 2. The use of `table` rather than `block` is only necessary if using
+ *    `:before` to contain the top-margins of child elements.
+ */
+
+.clearfix:before,
+.clearfix:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+/*
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+
+.clearfix {
+    *zoom: 1;
+}
+
+/* ==========================================================================
+   EXAMPLE Media Queries for Responsive Design.
+   These examples override the primary ('mobile first') styles.
+   Modify as content requires.
+   ========================================================================== */
+
+@media only screen and (min-width: 35em) {
+    /* Style adjustments for viewports that meet the condition */
+}
+
+@media print,
+       (-o-min-device-pixel-ratio: 5/4),
+       (-webkit-min-device-pixel-ratio: 1.25),
+       (min-resolution: 120dpi) {
+    /* Style adjustments for high resolution devices */
+}
+
+/* ==========================================================================
+   Print styles.
+   Inlined to avoid required HTTP connection: h5bp.com/r
+   ========================================================================== */
+
+@media print {
+    * {
+        background: transparent !important;
+        color: #000 !important; /* Black prints faster: h5bp.com/s */
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
+
+    a,
+    a:visited {
+        text-decoration: underline;
+    }
+
+    a[href]:after {
+        content: " (" attr(href) ")";
+    }
+
+    abbr[title]:after {
+        content: " (" attr(title) ")";
+    }
+
+    /*
+     * Don't show links for images, or javascript/internal links
+     */
+
+    .ir a:after,
+    a[href^="javascript:"]:after,
+    a[href^="#"]:after {
+        content: "";
+    }
+
+    pre,
+    blockquote {
+        border: 1px solid #999;
+        page-break-inside: avoid;
+    }
+
+    thead {
+        display: table-header-group; /* h5bp.com/t */
+    }
+
+    tr,
+    img {
+        page-break-inside: avoid;
+    }
+
+    img {
+        max-width: 100% !important;
+    }
+
+    @page {
+        margin: 0.5cm;
+    }
+
+    p,
+    h2,
+    h3 {
+        orphans: 3;
+        widows: 3;
+    }
+
+    h2,
+    h3 {
+        page-break-after: avoid;
+    }
+}
+
+
+

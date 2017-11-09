@@ -1,0 +1,50 @@
+<!DOCTYPE HTML>
+<html lang="en">
+    
+	<!--INSPIRATION FOR THE ASSIGMENT AND ORIGINAL CODE PROPETY OF Bouncyballs.org CAN BE FOUND ON https://bouncyballs.org-->
+
+    <!--Head of document with css and js call-->
+    <head>
+		<meta charset="utf-8">
+		<title>New PacMan The Game</title>
+
+		<link rel="image_src" href="images/emoji.png">
+		<link rel="stylesheet" href="css/pacman.css">
+	</head>
+	<body class="font-fix">
+		<div class="bg"></div>
+		<div class="bg"></div>
+        
+<!--Main Home page script links and js-->
+        
+		<div class="stage">
+			<div id="brand">
+				<img src="images/logo.png">
+			</div>
+			<div id="introMenu">
+			
+				<a id="one" class="menuText" href="game.html">Play Now</a>
+				<a id="two" class="menuText" href="about.html">About the Game</a>
+				<a id="three" class="menuText" href="about.html#download">Download!</a>
+				<script>
+				document.getElementById("one").onmousedown = function() {mouseDown()};
+				document.getElementById("two").onmousedown = function() {mouseDown()};
+				document.getElementById("three").onmousedown = function() {mouseDown()};
+
+				function mouseDown() {
+				document.getElementById("one").href = "game.html";
+				document.getElementById("one").target = "_self";}
+				document.getElementById("two").href = "about.html";
+				document.getElementById("two").target = "_self";}
+				document.getElementById("three").href = "about.html";
+				document.getElementById("three").target = "_self";}
+				</script>
+		</div>
+		
+		<div class="intro-main">
+		</div>
+		<script src="js/pacman.js"></script>
+		
+        </div>
+    </body>
+</html>
